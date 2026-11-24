@@ -3526,9 +3526,7 @@
       "ids": [
         "google/gemini-3.1-flash-tts",
         "gemini-3.1-flash-tts"
-      ],
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked": "2026-10-17"
+      ]
     },
     {
       "id": "openai/whisper-v3-turbo",
