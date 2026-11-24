@@ -70,6 +70,13 @@ Each skill is a folder with a `SKILL.md` that follows the [Agent Skills specific
 
 Found a wrong date or rate? Open an issue with the vendor's link.
 
+## What leaves your machine
+
+- **The scripts** (`scan.mjs`, `find-calls.mjs`, `estimate.mjs`) make no network requests. They read the files in the folder you point them at and print a report.
+- **`model-retirement-check`** asks your agent to open the OpenAI, Google and Anthropic deprecation pages listed in `retirements.json` when the data is more than 30 days old. Nothing from your code is sent to them.
+- **`infro-setup`**, and the `.mcp.json` file installed with the Claude Code plugin, connect your assistant to INFRO's MCP server at `https://mcp.infro.io/mcp`. Nothing is sent until you use it: the first call opens INFRO in your browser, where you sign in, choose an organization and allow the assistant. The tools it offers, and what each one can change, are listed at [infro.io/docs/mcp](https://infro.io/docs/mcp). An app you then point at INFRO sends its model requests through `https://api.infro.io`. Provider credentials and gateway key secrets are entered in the INFRO console, never in the chat.
+- **`llm-failover`** and **`coding-agent-spend-caps`** are instructions for your agent; they send nothing anywhere.
+
 ## Who makes this
 
 [INFRO](https://infro.io) is a BYOK AI control plane: one gateway in front of the AI provider accounts you already have, with routing and failover, spend limits enforced before the provider call, and estimated cost per request. You keep paying your providers directly; INFRO charges a flat subscription with 0% markup on model spend. These skills are free and MIT-licensed whether you use INFRO or not.
