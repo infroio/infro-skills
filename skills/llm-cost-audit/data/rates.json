@@ -1,0 +1,4744 @@
+{
+  "description": "Model vendors' own published list rates in USD, for estimates only. Text rates are USD per 1M tokens; `list` is in `unit`. Your provider bills you; a negotiated rate, batch discount or regional price differs. null = unpriced (the vendor publishes no per-unit rate), never zero.",
+  "generated": "2026-11-24",
+  "generatedBy": "INFRO (infro.io) model catalog",
+  "models": [
+    {
+      "id": "anthropic/claude-fable-5",
+      "name": "Claude Fable 5",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 20,
+      "textRates": {
+        "in": 10,
+        "out": 50
+      },
+      "ids": [
+        "anthropic/claude-fable-5",
+        "claude-fable-5"
+      ]
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Claude Fable 5.1",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 20,
+      "textRates": {
+        "in": 10,
+        "out": 50,
+        "cached": 0.25
+      },
+      "ids": [
+        "anthropic/claude-fable-5.1",
+        "claude-fable-5.1",
+        "claude-fable-5-1"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 20,
+      "textRates": {
+        "in": 10,
+        "out": 50,
+        "cached": 1
+      },
+      "ids": [
+        "openai/gpt-6-astra",
+        "gpt-6-astra"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "name": "GPT-6 Sol",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4,
+      "textRates": {
+        "in": 2,
+        "out": 10,
+        "cached": 0.2
+      },
+      "ids": [
+        "openai/gpt-6-sol",
+        "gpt-6-sol"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.2,
+      "textRates": {
+        "in": 0.1,
+        "out": 0.5,
+        "cached": 0.01
+      },
+      "ids": [
+        "openai/gpt-6-luna",
+        "gpt-6-luna"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "name": "GPT-5.6 Sol",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 8,
+      "textRates": {
+        "in": 4,
+        "out": 20
+      },
+      "ids": [
+        "openai/gpt-5.6-sol",
+        "gpt-5.6-sol"
+      ]
+    },
+    {
+      "id": "google/gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4.5,
+      "textRates": {
+        "in": 2,
+        "out": 12
+      },
+      "ids": [
+        "google/gemini-3.1-pro",
+        "gemini-3.1-pro"
+      ]
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "name": "Claude Opus 5.5",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 8,
+      "textRates": {
+        "in": 4,
+        "out": 20,
+        "cached": 0.2
+      },
+      "ids": [
+        "anthropic/claude-opus-5.5",
+        "claude-opus-5.5",
+        "claude-opus-5-5"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "anthropic/claude-opus-5",
+      "name": "Claude Opus 5",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 10,
+      "textRates": {
+        "in": 5,
+        "out": 25
+      },
+      "ids": [
+        "anthropic/claude-opus-5",
+        "claude-opus-5"
+      ]
+    },
+    {
+      "id": "xai/grok-4.7",
+      "name": "Grok 4.7",
+      "vendor": "xAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3,
+      "textRates": {
+        "in": 2,
+        "out": 6,
+        "cached": 0.5
+      },
+      "ids": [
+        "xai/grok-4.7",
+        "grok-4.7"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "xai/grok-4.6",
+      "name": "Grok 4.6",
+      "vendor": "xAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3,
+      "textRates": {
+        "in": 2,
+        "out": 6,
+        "cached": 0.5
+      },
+      "ids": [
+        "xai/grok-4.6",
+        "grok-4.6"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4,
+      "textRates": {
+        "in": 2,
+        "out": 10,
+        "cached": 0.1
+      },
+      "ids": [
+        "anthropic/claude-sonnet-5.5",
+        "claude-sonnet-5.5",
+        "claude-sonnet-5-5"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-11-09"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4,
+      "textRates": {
+        "in": 2,
+        "out": 10
+      },
+      "ids": [
+        "anthropic/claude-sonnet-5",
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "name": "GPT-5.6 Terra",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4.5,
+      "textRates": {
+        "in": 2,
+        "out": 12
+      },
+      "ids": [
+        "openai/gpt-5.6-terra",
+        "gpt-5.6-terra"
+      ]
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.5,
+      "textRates": {
+        "in": 0.75,
+        "out": 3.75,
+        "cached": 0.075
+      },
+      "ids": [
+        "google/gemini-3.8-flash",
+        "gemini-3.8-flash"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "name": "Gemini 3.7 Flash",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.5,
+      "textRates": {
+        "in": 0.75,
+        "out": 3.75
+      },
+      "ids": [
+        "google/gemini-3.7-flash",
+        "gemini-3.7-flash"
+      ]
+    },
+    {
+      "id": "openai/gpt-5.6-luna",
+      "name": "GPT-5.6 Luna",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.45,
+      "textRates": {
+        "in": 0.2,
+        "out": 1.2
+      },
+      "ids": [
+        "openai/gpt-5.6-luna",
+        "gpt-5.6-luna"
+      ]
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "name": "Claude Haiku 5.5",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.2,
+      "textRates": {
+        "in": 0.1,
+        "out": 0.5,
+        "cached": 0.01
+      },
+      "ids": [
+        "anthropic/claude-haiku-5.5",
+        "claude-haiku-5.5",
+        "claude-haiku-5-5"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "name": "Claude Haiku 4.5",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 2,
+      "textRates": {
+        "in": 1,
+        "out": 5
+      },
+      "ids": [
+        "anthropic/claude-haiku-4.5",
+        "claude-haiku-4.5",
+        "claude-haiku-4-5"
+      ]
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.2625,
+      "textRates": {
+        "in": 0.15,
+        "out": 0.6,
+        "cached": 0.15
+      },
+      "ids": [
+        "openai/gpt-oss-120b",
+        "gpt-oss-120b"
+      ],
+      "source": "https://console.groq.com/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "deepseek/deepseek-flash",
+      "name": "DeepSeek Flash (V4.1)",
+      "vendor": "DeepSeek",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.525,
+      "textRates": {
+        "in": 0.3,
+        "out": 1.2,
+        "cached": 0.006
+      },
+      "ids": [
+        "deepseek/deepseek-flash",
+        "deepseek-flash"
+      ],
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "vendor": "DeepSeek",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.98,
+      "textRates": {
+        "in": 1.32,
+        "out": 3.96,
+        "cached": 0.044
+      },
+      "ids": [
+        "deepseek/deepseek-v4-pro",
+        "deepseek-v4-pro"
+      ],
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "vendor": "DeepSeek",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.525,
+      "textRates": {
+        "in": 0.3,
+        "out": 1.2,
+        "cached": 0.006
+      },
+      "ids": [
+        "deepseek/deepseek-v4-flash",
+        "deepseek-v4-flash"
+      ],
+      "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "moonshot/kimi-k3",
+      "name": "Kimi K3",
+      "vendor": "Moonshot",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 6,
+      "textRates": {
+        "in": 3,
+        "out": 15,
+        "cached": 0.3
+      },
+      "ids": [
+        "moonshot/kimi-k3",
+        "kimi-k3"
+      ],
+      "source": "https://platform.kimi.ai/docs/pricing/chat",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "moonshot/kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
+      "vendor": "Moonshot",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.7125,
+      "textRates": {
+        "in": 0.95,
+        "out": 4,
+        "cached": 0.19
+      },
+      "ids": [
+        "moonshot/kimi-k2.7-code",
+        "kimi-k2.7-code"
+      ],
+      "source": "https://platform.kimi.ai/docs/pricing/chat",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "moonshot/kimi-k2.6",
+      "name": "Kimi K2.6",
+      "vendor": "Moonshot",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.7125,
+      "textRates": {
+        "in": 0.95,
+        "out": 4,
+        "cached": 0.16
+      },
+      "ids": [
+        "moonshot/kimi-k2.6",
+        "kimi-k2.6"
+      ],
+      "source": "https://platform.kimi.ai/docs/pricing/chat",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "zai/glm-5.3",
+      "name": "GLM-5.3",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 2.15,
+      "textRates": {
+        "in": 1.4,
+        "out": 4.4,
+        "cached": 0.26
+      },
+      "ids": [
+        "zai/glm-5.3",
+        "glm-5.3"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "zai/glm-5.3-flash",
+      "name": "GLM-5.3 Flash",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.2375,
+      "textRates": {
+        "in": 0.15,
+        "out": 0.5,
+        "cached": 0.03
+      },
+      "ids": [
+        "zai/glm-5.3-flash",
+        "glm-5.3-flash"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "zai/glm-5.2",
+      "name": "GLM-5.2",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 2.15,
+      "textRates": {
+        "in": 1.4,
+        "out": 4.4,
+        "cached": 0.26
+      },
+      "ids": [
+        "zai/glm-5.2",
+        "glm-5.2"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "minimax/minimax-m3",
+      "name": "MiniMax M3",
+      "vendor": "MiniMax",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.525,
+      "textRates": {
+        "in": 0.3,
+        "out": 1.2,
+        "cached": 0.06
+      },
+      "ids": [
+        "minimax/minimax-m3",
+        "minimax-m3"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "minimax/minimax-m2.7",
+      "name": "MiniMax M2.7",
+      "vendor": "MiniMax",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.525,
+      "textRates": {
+        "in": 0.3,
+        "out": 1.2,
+        "cached": 0.06
+      },
+      "ids": [
+        "minimax/minimax-m2.7",
+        "minimax-m2.7"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "minimax/minimax-m2.5",
+      "name": "MiniMax M2.5",
+      "vendor": "MiniMax",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.525,
+      "textRates": {
+        "in": 0.3,
+        "out": 1.2,
+        "cached": 0.03
+      },
+      "ids": [
+        "minimax/minimax-m2.5",
+        "minimax-m2.5"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "qwen/qwen3.8-max",
+      "name": "Qwen3.8 Max",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3,
+      "textRates": {
+        "in": 2,
+        "out": 6
+      },
+      "ids": [
+        "qwen/qwen3.8-max",
+        "qwen3.8-max"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "qwen/qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.23,
+      "textRates": {
+        "in": 0.15,
+        "out": 0.47
+      },
+      "ids": [
+        "qwen/qwen3.8-flash",
+        "qwen3.8-flash"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.125,
+      "textRates": {
+        "in": 0.5,
+        "out": 3
+      },
+      "ids": [
+        "qwen/qwen3.8-27b",
+        "qwen3.8-27b"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3-coder",
+      "name": "Qwen3-Coder",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 2,
+      "textRates": {
+        "in": 1,
+        "out": 5
+      },
+      "ids": [
+        "qwen/qwen3-coder",
+        "qwen3-coder"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "perplexity/sonar-pro",
+      "name": "Sonar Pro",
+      "vendor": "Perplexity",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 6,
+      "textRates": {
+        "in": 3,
+        "out": 15
+      },
+      "ids": [
+        "perplexity/sonar-pro",
+        "sonar-pro"
+      ],
+      "source": "https://docs.perplexity.ai/docs/getting-started/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "perplexity/sonar",
+      "name": "Sonar",
+      "vendor": "Perplexity",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1,
+      "textRates": {
+        "in": 1,
+        "out": 1
+      },
+      "ids": [
+        "perplexity/sonar",
+        "sonar"
+      ],
+      "source": "https://docs.perplexity.ai/docs/getting-started/pricing",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "typesafe/jev-1.13",
+      "name": "Jev 1.13",
+      "vendor": "TypeSafe",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.0315,
+      "textRates": {
+        "in": 0.042,
+        "out": 0
+      },
+      "ids": [
+        "typesafe/jev-1.13",
+        "jev-1.13"
+      ],
+      "source": "https://docs.typesafe.ai/models",
+      "checked": "2026-10-06"
+    },
+    {
+      "id": "openai/gpt-6-luna-decisions",
+      "name": "GPT-6 Luna (Decisions)",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.075,
+      "textRates": {
+        "in": 0.1,
+        "out": 0
+      },
+      "ids": [
+        "openai/gpt-6-luna-decisions",
+        "gpt-6-luna-decisions"
+      ],
+      "source": "https://developers.openai.com/api/docs/guides/decisions",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "cloudflare/clef",
+      "name": "Clef",
+      "vendor": "Cloudflare",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.18,
+      "textRates": {
+        "in": 0.24,
+        "out": 0
+      },
+      "ids": [
+        "cloudflare/clef",
+        "clef"
+      ],
+      "source": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "cloudflare/clef-flash",
+      "name": "Clef Flash",
+      "vendor": "Cloudflare",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.0285,
+      "textRates": {
+        "in": 0.038,
+        "out": 0
+      },
+      "ids": [
+        "cloudflare/clef-flash",
+        "clef-flash"
+      ],
+      "source": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "cloudflare/clef-omni",
+      "name": "Clef Omni",
+      "vendor": "Cloudflare",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.1125,
+      "textRates": {
+        "in": 0.15,
+        "out": 0
+      },
+      "ids": [
+        "cloudflare/clef-omni",
+        "clef-omni"
+      ],
+      "source": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "perplexity/pplx-decider-v1.1-27b",
+      "name": "pplx-decider v1.1 27B",
+      "vendor": "Perplexity",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.015,
+      "textRates": {
+        "in": 0.02,
+        "out": 0
+      },
+      "ids": [
+        "perplexity/pplx-decider-v1.1-27b",
+        "pplx-decider-v1.1-27b"
+      ],
+      "source": "https://docs.perplexity.ai/docs/getting-started/pricing",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "inception/mercury-decide",
+      "name": "Mercury Decide",
+      "vendor": "Inception",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.015,
+      "textRates": {
+        "in": 0.02,
+        "out": 0
+      },
+      "ids": [
+        "inception/mercury-decide",
+        "mercury-decide"
+      ],
+      "source": "https://docs.inceptionlabs.ai/get-started/models",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "liquid/d1",
+      "name": "d1",
+      "vendor": "Liquid AI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.03,
+      "textRates": {
+        "in": 0.04,
+        "out": 0
+      },
+      "ids": [
+        "liquid/d1",
+        "d1"
+      ],
+      "source": "https://openrouter.ai/liquid/d1",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "upstage/solar-decide",
+      "name": "Solar Decide",
+      "vendor": "Upstage",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.0375,
+      "textRates": {
+        "in": 0.05,
+        "out": 0
+      },
+      "ids": [
+        "upstage/solar-decide",
+        "solar-decide"
+      ],
+      "source": "https://openrouter.ai/upstage/solar-decide",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "upstage/solar-decide-flash",
+      "name": "Solar Decide Flash",
+      "vendor": "Upstage",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.0375,
+      "textRates": {
+        "in": 0.05,
+        "out": 0
+      },
+      "ids": [
+        "upstage/solar-decide-flash",
+        "solar-decide-flash"
+      ],
+      "source": "https://openrouter.ai/upstage/solar-decide-flash",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "microsoft/microsoft-decision-1",
+      "name": "Microsoft-Decision-1",
+      "vendor": "Microsoft",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.0315,
+      "textRates": {
+        "in": 0.042,
+        "out": 0
+      },
+      "ids": [
+        "microsoft/microsoft-decision-1",
+        "microsoft-decision-1"
+      ],
+      "source": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision",
+      "checked": "2026-10-11"
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4,
+      "textRates": {
+        "in": 2,
+        "out": 10,
+        "cached": 0.1
+      },
+      "ids": [
+        "openai/gpt-6.1-sol",
+        "gpt-6.1-sol"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "name": "GPT-5.5",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 11.25,
+      "textRates": {
+        "in": 5,
+        "out": 30,
+        "cached": 0.5
+      },
+      "ids": [
+        "openai/gpt-5.5",
+        "gpt-5.5"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "name": "GPT-5.5 Pro",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 67.5,
+      "textRates": {
+        "in": 30,
+        "out": 180,
+        "cached": 30
+      },
+      "ids": [
+        "openai/gpt-5.5-pro",
+        "gpt-5.5-pro"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-5.4",
+      "name": "GPT-5.4",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 5.625,
+      "textRates": {
+        "in": 2.5,
+        "out": 15,
+        "cached": 0.25
+      },
+      "ids": [
+        "openai/gpt-5.4",
+        "gpt-5.4"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-5.4-mini",
+      "name": "GPT-5.4 mini",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.6875,
+      "textRates": {
+        "in": 0.75,
+        "out": 4.5,
+        "cached": 0.075
+      },
+      "ids": [
+        "openai/gpt-5.4-mini",
+        "gpt-5.4-mini"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-5.4-nano",
+      "name": "GPT-5.4 nano",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.4625,
+      "textRates": {
+        "in": 0.2,
+        "out": 1.25,
+        "cached": 0.02
+      },
+      "ids": [
+        "openai/gpt-5.4-nano",
+        "gpt-5.4-nano"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "name": "GPT-5.4 Pro",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 67.5,
+      "textRates": {
+        "in": 30,
+        "out": 180,
+        "cached": 30
+      },
+      "ids": [
+        "openai/gpt-5.4-pro",
+        "gpt-5.4-pro"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-5.3-codex",
+      "name": "GPT-5.3 Codex",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4.8125,
+      "textRates": {
+        "in": 1.75,
+        "out": 14
+      },
+      "ids": [
+        "openai/gpt-5.3-codex",
+        "gpt-5.3-codex"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/o3",
+      "name": "o3",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3.5,
+      "textRates": {
+        "in": 2,
+        "out": 8,
+        "cached": 0.5
+      },
+      "ids": [
+        "openai/o3",
+        "o3"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/o3-pro",
+      "name": "o3-pro",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 35,
+      "textRates": {
+        "in": 20,
+        "out": 80,
+        "cached": 20
+      },
+      "ids": [
+        "openai/o3-pro",
+        "o3-pro"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-4.1",
+      "name": "GPT-4.1",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3.5,
+      "textRates": {
+        "in": 2,
+        "out": 8,
+        "cached": 0.5
+      },
+      "ids": [
+        "openai/gpt-4.1",
+        "gpt-4.1"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-4.1-mini",
+      "name": "GPT-4.1 mini",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.7,
+      "textRates": {
+        "in": 0.4,
+        "out": 1.6,
+        "cached": 0.1
+      },
+      "ids": [
+        "openai/gpt-4.1-mini",
+        "gpt-4.1-mini"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-4o",
+      "name": "GPT-4o",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4.375,
+      "textRates": {
+        "in": 2.5,
+        "out": 10,
+        "cached": 1.25
+      },
+      "ids": [
+        "openai/gpt-4o",
+        "gpt-4o"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.2625,
+      "textRates": {
+        "in": 0.15,
+        "out": 0.6,
+        "cached": 0.075
+      },
+      "ids": [
+        "openai/gpt-4o-mini",
+        "gpt-4o-mini"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Claude Opus 4.8",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 10,
+      "textRates": {
+        "in": 5,
+        "out": 25,
+        "cached": 0.5
+      },
+      "ids": [
+        "anthropic/claude-opus-4.8",
+        "claude-opus-4.8",
+        "claude-opus-4-8"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "name": "Claude Opus 4.7",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 10,
+      "textRates": {
+        "in": 5,
+        "out": 25,
+        "cached": 0.5
+      },
+      "ids": [
+        "anthropic/claude-opus-4.7",
+        "claude-opus-4.7",
+        "claude-opus-4-7"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "anthropic/claude-opus-4.6",
+      "name": "Claude Opus 4.6",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 10,
+      "textRates": {
+        "in": 5,
+        "out": 25,
+        "cached": 0.5
+      },
+      "ids": [
+        "anthropic/claude-opus-4.6",
+        "claude-opus-4.6",
+        "claude-opus-4-6"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "name": "Claude Opus 4.5",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 10,
+      "textRates": {
+        "in": 5,
+        "out": 25,
+        "cached": 0.5
+      },
+      "ids": [
+        "anthropic/claude-opus-4.5",
+        "claude-opus-4.5",
+        "claude-opus-4-5"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6",
+      "name": "Claude Sonnet 4.6",
+      "vendor": "Anthropic",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 6,
+      "textRates": {
+        "in": 3,
+        "out": 15,
+        "cached": 0.3
+      },
+      "ids": [
+        "anthropic/claude-sonnet-4.6",
+        "claude-sonnet-4.6",
+        "claude-sonnet-4-6"
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "name": "Gemini 3.6 Flash",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.5,
+      "textRates": {
+        "in": 0.75,
+        "out": 3.75,
+        "cached": 0.075
+      },
+      "ids": [
+        "google/gemini-3.6-flash",
+        "gemini-3.6-flash"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3.375,
+      "textRates": {
+        "in": 1.5,
+        "out": 9,
+        "cached": 0.15
+      },
+      "ids": [
+        "google/gemini-3.5-flash",
+        "gemini-3.5-flash"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.85,
+      "textRates": {
+        "in": 0.3,
+        "out": 2.5,
+        "cached": 0.03
+      },
+      "ids": [
+        "google/gemini-3.5-flash-lite",
+        "gemini-3.5-flash-lite"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.5625,
+      "textRates": {
+        "in": 0.25,
+        "out": 1.5,
+        "cached": 0.025
+      },
+      "ids": [
+        "google/gemini-3.1-flash-lite",
+        "gemini-3.1-flash-lite"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.85,
+      "textRates": {
+        "in": 0.3,
+        "out": 2.5,
+        "cached": 0.03
+      },
+      "ids": [
+        "google/gemini-2.5-flash",
+        "gemini-2.5-flash"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.175,
+      "textRates": {
+        "in": 0.1,
+        "out": 0.4,
+        "cached": 0.01
+      },
+      "ids": [
+        "google/gemini-2.5-flash-lite",
+        "gemini-2.5-flash-lite"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "google/gemini-3-flash",
+      "name": "Gemini 3 Flash (Preview)",
+      "vendor": "Google",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.125,
+      "textRates": {
+        "in": 0.5,
+        "out": 3,
+        "cached": 0.05
+      },
+      "ids": [
+        "google/gemini-3-flash",
+        "gemini-3-flash"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-4.5",
+      "name": "Grok 4.5",
+      "vendor": "xAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3,
+      "textRates": {
+        "in": 2,
+        "out": 6,
+        "cached": 0.3
+      },
+      "ids": [
+        "xai/grok-4.5",
+        "grok-4.5"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-4.3",
+      "name": "Grok 4.3",
+      "vendor": "xAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.5625,
+      "textRates": {
+        "in": 1.25,
+        "out": 2.5,
+        "cached": 0.2
+      },
+      "ids": [
+        "xai/grok-4.3",
+        "grok-4.3"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-4.20-0309-reasoning",
+      "name": "Grok 4.20 Reasoning",
+      "vendor": "xAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.5625,
+      "textRates": {
+        "in": 1.25,
+        "out": 2.5,
+        "cached": 0.2
+      },
+      "ids": [
+        "xai/grok-4.20-0309-reasoning",
+        "grok-4.20-0309-reasoning"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-4.20-0309-non-reasoning",
+      "name": "Grok 4.20 Non-Reasoning",
+      "vendor": "xAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.5625,
+      "textRates": {
+        "in": 1.25,
+        "out": 2.5,
+        "cached": 0.2
+      },
+      "ids": [
+        "xai/grok-4.20-0309-non-reasoning",
+        "grok-4.20-0309-non-reasoning"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-4.20-multi-agent-0309",
+      "name": "Grok 4.20 Multi-Agent (Beta)",
+      "vendor": "xAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.5625,
+      "textRates": {
+        "in": 1.25,
+        "out": 2.5,
+        "cached": 0.2
+      },
+      "ids": [
+        "xai/grok-4.20-multi-agent-0309",
+        "grok-4.20-multi-agent-0309"
+      ],
+      "source": "https://docs.x.ai/docs/models/grok-4.20-multi-agent-0309",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-build-0.1",
+      "name": "Grok Build 0.1",
+      "vendor": "xAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.25,
+      "textRates": {
+        "in": 1,
+        "out": 2,
+        "cached": 0.2
+      },
+      "ids": [
+        "xai/grok-build-0.1",
+        "grok-build-0.1"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/mistral-large-3",
+      "name": "Mistral Large 3",
+      "vendor": "Mistral",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.75,
+      "textRates": {
+        "in": 0.5,
+        "out": 1.5
+      },
+      "ids": [
+        "mistral/mistral-large-3",
+        "mistral-large-3"
+      ],
+      "source": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/mistral-medium-3.5",
+      "name": "Mistral Medium 3.5",
+      "vendor": "Mistral",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3,
+      "textRates": {
+        "in": 1.5,
+        "out": 7.5
+      },
+      "ids": [
+        "mistral/mistral-medium-3.5",
+        "mistral-medium-3.5"
+      ],
+      "source": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/mistral-small-4",
+      "name": "Mistral Small 4",
+      "vendor": "Mistral",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.2625,
+      "textRates": {
+        "in": 0.15,
+        "out": 0.6
+      },
+      "ids": [
+        "mistral/mistral-small-4",
+        "mistral-small-4"
+      ],
+      "source": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/ministral-3-14b",
+      "name": "Ministral 3 14B",
+      "vendor": "Mistral",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.2,
+      "textRates": {
+        "in": 0.2,
+        "out": 0.2
+      },
+      "ids": [
+        "mistral/ministral-3-14b",
+        "ministral-3-14b"
+      ],
+      "source": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/ministral-3-8b",
+      "name": "Ministral 3 8B",
+      "vendor": "Mistral",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.15,
+      "textRates": {
+        "in": 0.15,
+        "out": 0.15
+      },
+      "ids": [
+        "mistral/ministral-3-8b",
+        "ministral-3-8b"
+      ],
+      "source": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/ministral-3-3b",
+      "name": "Ministral 3 3B",
+      "vendor": "Mistral",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.1,
+      "textRates": {
+        "in": 0.1,
+        "out": 0.1
+      },
+      "ids": [
+        "mistral/ministral-3-3b",
+        "ministral-3-3b"
+      ],
+      "source": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/codestral",
+      "name": "Codestral",
+      "vendor": "Mistral",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.45,
+      "textRates": {
+        "in": 0.3,
+        "out": 0.9
+      },
+      "ids": [
+        "mistral/codestral",
+        "codestral"
+      ],
+      "source": "https://docs.mistral.ai/models/codestral-25-08",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/voxtral-small",
+      "name": "Voxtral Small",
+      "vendor": "Mistral",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.175,
+      "textRates": {
+        "in": 0.1,
+        "out": 0.4
+      },
+      "ids": [
+        "mistral/voxtral-small",
+        "voxtral-small"
+      ],
+      "source": "https://docs.mistral.ai/models/voxtral-small-25-07",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "cohere/command-r",
+      "name": "Command R",
+      "vendor": "Cohere",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.2625,
+      "textRates": {
+        "in": 0.15,
+        "out": 0.6
+      },
+      "ids": [
+        "cohere/command-r",
+        "command-r"
+      ],
+      "source": "https://cohere.com/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "cohere/command-r7b",
+      "name": "Command R7B",
+      "vendor": "Cohere",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.065625,
+      "textRates": {
+        "in": 0.0375,
+        "out": 0.15
+      },
+      "ids": [
+        "cohere/command-r7b",
+        "command-r7b"
+      ],
+      "source": "https://cohere.com/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "cohere/command-r-plus",
+      "name": "Command R+",
+      "vendor": "Cohere",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 4.375,
+      "textRates": {
+        "in": 2.5,
+        "out": 10
+      },
+      "ids": [
+        "cohere/command-r-plus",
+        "command-r-plus"
+      ],
+      "source": "https://cohere.com/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "cohere/aya-expanse-32b",
+      "name": "Aya Expanse 32B",
+      "vendor": "Cohere",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.75,
+      "textRates": {
+        "in": 0.5,
+        "out": 1.5
+      },
+      "ids": [
+        "cohere/aya-expanse-32b",
+        "aya-expanse-32b"
+      ],
+      "source": "https://cohere.com/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "perplexity/sonar-reasoning-pro",
+      "name": "Sonar Reasoning Pro",
+      "vendor": "Perplexity",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3.5,
+      "textRates": {
+        "in": 2,
+        "out": 8
+      },
+      "ids": [
+        "perplexity/sonar-reasoning-pro",
+        "sonar-reasoning-pro"
+      ],
+      "source": "https://docs.perplexity.ai/getting-started/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "perplexity/sonar-deep-research",
+      "name": "Sonar Deep Research",
+      "vendor": "Perplexity",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3.5,
+      "textRates": {
+        "in": 2,
+        "out": 8
+      },
+      "ids": [
+        "perplexity/sonar-deep-research",
+        "sonar-deep-research"
+      ],
+      "source": "https://docs.perplexity.ai/getting-started/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "moonshot/kimi-k2.7-code-highspeed",
+      "name": "Kimi K2.7 Code Highspeed",
+      "vendor": "Moonshot",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3.425,
+      "textRates": {
+        "in": 1.9,
+        "out": 8,
+        "cached": 0.38
+      },
+      "ids": [
+        "moonshot/kimi-k2.7-code-highspeed",
+        "kimi-k2.7-code-highspeed"
+      ],
+      "source": "https://platform.kimi.ai/docs/pricing/chat",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-5.3-flashx",
+      "name": "GLM-5.3 FlashX",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.59,
+      "textRates": {
+        "in": 0.37,
+        "out": 1.25,
+        "cached": 0.075
+      },
+      "ids": [
+        "zai/glm-5.3-flashx",
+        "glm-5.3-flashx"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-5.1",
+      "name": "GLM-5.1",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 2.15,
+      "textRates": {
+        "in": 1.4,
+        "out": 4.4,
+        "cached": 0.26
+      },
+      "ids": [
+        "zai/glm-5.1",
+        "glm-5.1"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-5",
+      "name": "GLM-5",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.55,
+      "textRates": {
+        "in": 1,
+        "out": 3.2,
+        "cached": 0.2
+      },
+      "ids": [
+        "zai/glm-5",
+        "glm-5"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-4.7",
+      "name": "GLM-4.7",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1,
+      "textRates": {
+        "in": 0.6,
+        "out": 2.2,
+        "cached": 0.11
+      },
+      "ids": [
+        "zai/glm-4.7",
+        "glm-4.7"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-4.7-flashx",
+      "name": "GLM-4.7 FlashX",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.1525,
+      "textRates": {
+        "in": 0.07,
+        "out": 0.4,
+        "cached": 0.01
+      },
+      "ids": [
+        "zai/glm-4.7-flashx",
+        "glm-4.7-flashx"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-4.6",
+      "name": "GLM-4.6",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1,
+      "textRates": {
+        "in": 0.6,
+        "out": 2.2,
+        "cached": 0.11
+      },
+      "ids": [
+        "zai/glm-4.6",
+        "glm-4.6"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-4.5-air",
+      "name": "GLM-4.5 Air",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.425,
+      "textRates": {
+        "in": 0.2,
+        "out": 1.1,
+        "cached": 0.03
+      },
+      "ids": [
+        "zai/glm-4.5-air",
+        "glm-4.5-air"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-4.6v",
+      "name": "GLM-4.6V",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.45,
+      "textRates": {
+        "in": 0.3,
+        "out": 0.9,
+        "cached": 0.05
+      },
+      "ids": [
+        "zai/glm-4.6v",
+        "glm-4.6v"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-4.6v-flashx",
+      "name": "GLM-4.6V FlashX",
+      "vendor": "Z.ai",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.13,
+      "textRates": {
+        "in": 0.04,
+        "out": 0.4,
+        "cached": 0.004
+      },
+      "ids": [
+        "zai/glm-4.6v-flashx",
+        "glm-4.6v-flashx"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/minimax-m2.7-highspeed",
+      "name": "MiniMax M2.7 Highspeed",
+      "vendor": "MiniMax",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.05,
+      "textRates": {
+        "in": 0.6,
+        "out": 2.4,
+        "cached": 0.06
+      },
+      "ids": [
+        "minimax/minimax-m2.7-highspeed",
+        "minimax-m2.7-highspeed"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3.7-plus",
+      "name": "Qwen3.7 Plus",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.7,
+      "textRates": {
+        "in": 0.4,
+        "out": 1.6
+      },
+      "ids": [
+        "qwen/qwen3.7-plus",
+        "qwen3.7-plus"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3.7-max",
+      "name": "Qwen3.7 Max",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 3.75,
+      "textRates": {
+        "in": 2.5,
+        "out": 7.5
+      },
+      "ids": [
+        "qwen/qwen3.7-max",
+        "qwen3.7-max"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3-coder-flash",
+      "name": "Qwen3-Coder Flash",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.6,
+      "textRates": {
+        "in": 0.3,
+        "out": 1.5
+      },
+      "ids": [
+        "qwen/qwen3-coder-flash",
+        "qwen3-coder-flash"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3-coder-next",
+      "name": "Qwen3-Coder Next",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.6,
+      "textRates": {
+        "in": 0.3,
+        "out": 1.5
+      },
+      "ids": [
+        "qwen/qwen3-coder-next",
+        "qwen3-coder-next"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3-vl-plus",
+      "name": "Qwen3-VL Plus",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.55,
+      "textRates": {
+        "in": 0.2,
+        "out": 1.6
+      },
+      "ids": [
+        "qwen/qwen3-vl-plus",
+        "qwen3-vl-plus"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen-vl-max",
+      "name": "Qwen-VL Max",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.4,
+      "textRates": {
+        "in": 0.8,
+        "out": 3.2
+      },
+      "ids": [
+        "qwen/qwen-vl-max",
+        "qwen-vl-max"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "amazon/nova-2-lite",
+      "name": "Amazon Nova 2 Lite",
+      "vendor": "Amazon",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.85,
+      "textRates": {
+        "in": 0.3,
+        "out": 2.5,
+        "cached": 0.075
+      },
+      "ids": [
+        "amazon/nova-2-lite",
+        "nova-2-lite"
+      ],
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json (AWS Price List API; page https://aws.amazon.com/bedrock/pricing/ renders the same SKUs)",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "amazon/nova-pro",
+      "name": "Amazon Nova Pro",
+      "vendor": "Amazon",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.4,
+      "textRates": {
+        "in": 0.8,
+        "out": 3.2,
+        "cached": 0.2
+      },
+      "ids": [
+        "amazon/nova-pro",
+        "nova-pro"
+      ],
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "amazon/nova-lite",
+      "name": "Amazon Nova Lite",
+      "vendor": "Amazon",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.105,
+      "textRates": {
+        "in": 0.06,
+        "out": 0.24,
+        "cached": 0.015
+      },
+      "ids": [
+        "amazon/nova-lite",
+        "nova-lite"
+      ],
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "amazon/nova-micro",
+      "name": "Amazon Nova Micro",
+      "vendor": "Amazon",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.06125,
+      "textRates": {
+        "in": 0.035,
+        "out": 0.14,
+        "cached": 0.00875
+      },
+      "ids": [
+        "amazon/nova-micro",
+        "nova-micro"
+      ],
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "gpt-oss-20b",
+      "vendor": "OpenAI",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.13125,
+      "textRates": {
+        "in": 0.075,
+        "out": 0.3,
+        "cached": 0.075
+      },
+      "ids": [
+        "openai/gpt-oss-20b",
+        "gpt-oss-20b"
+      ],
+      "source": "https://console.groq.com/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "meta/llama-3.3-70b",
+      "name": "Llama 3.3 70B",
+      "vendor": "Meta",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.04,
+      "textRates": {
+        "in": 1.04,
+        "out": 1.04
+      },
+      "ids": [
+        "meta/llama-3.3-70b",
+        "llama-3.3-70b"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "meta/muse-glimmer-30b",
+      "name": "Muse Glimmer 30B",
+      "vendor": "Meta",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.6375,
+      "textRates": {
+        "in": 0.35,
+        "out": 1.5,
+        "cached": 0.04
+      },
+      "ids": [
+        "meta/muse-glimmer-30b",
+        "muse-glimmer-30b"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "name": "Inkling",
+      "vendor": "Thinking Machines",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.7625,
+      "textRates": {
+        "in": 1,
+        "out": 4.05,
+        "cached": 0.17
+      },
+      "ids": [
+        "thinkingmachines/inkling",
+        "inkling"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "fireworks/ember-1",
+      "name": "Ember-1",
+      "vendor": "Fireworks",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 6,
+      "textRates": {
+        "in": 3,
+        "out": 15,
+        "cached": 0.3
+      },
+      "ids": [
+        "fireworks/ember-1",
+        "ember-1"
+      ],
+      "source": "https://docs.fireworks.ai/serverless/pricing.md",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "name": "Nemotron 3.5 Lightning 30B A3B",
+      "vendor": "NVIDIA",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.0875,
+      "textRates": {
+        "in": 0.05,
+        "out": 0.2,
+        "cached": 0.01
+      },
+      "ids": [
+        "nvidia/nemotron-3.5-lightning-30b-a3b",
+        "nemotron-3.5-lightning-30b-a3b"
+      ],
+      "source": "https://docs.fireworks.ai/serverless/pricing.md",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra",
+      "name": "Nemotron 3 Ultra",
+      "vendor": "NVIDIA",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.05,
+      "textRates": {
+        "in": 0.6,
+        "out": 2.4,
+        "cached": 0.12
+      },
+      "ids": [
+        "nvidia/nemotron-3-ultra",
+        "nemotron-3-ultra"
+      ],
+      "source": "https://docs.fireworks.ai/serverless/pricing.md",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen3.5 9B",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 0.19,
+      "textRates": {
+        "in": 0.17,
+        "out": 0.25
+      },
+      "ids": [
+        "qwen/qwen3.5-9b",
+        "qwen3.5-9b"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3.6-plus",
+      "name": "Qwen3.6 Plus",
+      "vendor": "Alibaba",
+      "modality": "text",
+      "unit": "1M tokens",
+      "list": 1.125,
+      "textRates": {
+        "in": 0.5,
+        "out": 3
+      },
+      "ids": [
+        "qwen/qwen3.6-plus",
+        "qwen3.6-plus"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-image-2",
+      "name": "GPT Image 2",
+      "vendor": "OpenAI",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.053,
+      "ids": [
+        "openai/gpt-image-2",
+        "gpt-image-2"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "google/nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "vendor": "Google",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.134,
+      "ids": [
+        "google/nano-banana-pro",
+        "nano-banana-pro"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bytedance/seedream-5-pro",
+      "name": "Seedream 5.0 Pro",
+      "vendor": "ByteDance",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.045,
+      "ids": [
+        "bytedance/seedream-5-pro",
+        "seedream-5-pro"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/nano-banana-2",
+      "name": "Nano Banana 2",
+      "vendor": "Google",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.067,
+      "ids": [
+        "google/nano-banana-2",
+        "nano-banana-2"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bfl/flux-2-pro",
+      "name": "FLUX.2 [pro]",
+      "vendor": "Black Forest Labs",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.03,
+      "ids": [
+        "bfl/flux-2-pro",
+        "flux-2-pro"
+      ],
+      "source": "https://docs.bfl.ai/quick_start/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-imagine-image-2",
+      "name": "Grok Imagine 2.0",
+      "vendor": "xAI",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.04,
+      "ids": [
+        "xai/grok-imagine-image-2",
+        "grok-imagine-image-2"
+      ],
+      "source": "https://docs.x.ai/docs/models/grok-imagine-image-2.0",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen-image-3",
+      "name": "Qwen-Image 3.0",
+      "vendor": "Alibaba",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.03,
+      "ids": [
+        "qwen/qwen-image-3",
+        "qwen-image-3"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "topaz/image-upscale",
+      "name": "Topaz Image Upscale",
+      "vendor": "Topaz Labs",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.08,
+      "ids": [
+        "topaz/image-upscale",
+        "image-upscale"
+      ],
+      "source": "https://fal.ai/models/fal-ai/topaz/upscale/image/llms.txt",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "ideogram/ideogram-3",
+      "name": "Ideogram 3.0",
+      "vendor": "Ideogram",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.06,
+      "ids": [
+        "ideogram/ideogram-3",
+        "ideogram-3"
+      ]
+    },
+    {
+      "id": "recraft/recraft-v3",
+      "name": "Recraft V3",
+      "vendor": "Recraft",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.04,
+      "ids": [
+        "recraft/recraft-v3",
+        "recraft-v3"
+      ]
+    },
+    {
+      "id": "bfl/flux-2-dev",
+      "name": "FLUX.2 [dev]",
+      "vendor": "Black Forest Labs",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.025,
+      "ids": [
+        "bfl/flux-2-dev",
+        "flux-2-dev"
+      ]
+    },
+    {
+      "id": "google/nano-banana-2-lite",
+      "name": "Nano Banana 2 Lite",
+      "vendor": "Google",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.0336,
+      "ids": [
+        "google/nano-banana-2-lite",
+        "nano-banana-2-lite"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-imagine-image",
+      "name": "Grok Imagine Image",
+      "vendor": "xAI",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.02,
+      "ids": [
+        "xai/grok-imagine-image",
+        "grok-imagine-image"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-imagine-image-quality",
+      "name": "Grok Imagine Image Quality",
+      "vendor": "xAI",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.05,
+      "ids": [
+        "xai/grok-imagine-image-quality",
+        "grok-imagine-image-quality"
+      ],
+      "source": "https://docs.x.ai/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-image",
+      "name": "GLM-Image",
+      "vendor": "Z.ai",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.015,
+      "ids": [
+        "zai/glm-image",
+        "glm-image"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/cogview-4",
+      "name": "CogView-4",
+      "vendor": "Z.ai",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.01,
+      "ids": [
+        "zai/cogview-4",
+        "cogview-4"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/image-01",
+      "name": "MiniMax Image-01",
+      "vendor": "MiniMax",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.0035,
+      "ids": [
+        "minimax/image-01",
+        "image-01"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen-image-3-pro",
+      "name": "Qwen-Image 3.0 Pro",
+      "vendor": "Alibaba",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.04,
+      "ids": [
+        "qwen/qwen-image-3-pro",
+        "qwen-image-3-pro"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "alibaba/wan-2.7-image-pro",
+      "name": "Wan 2.7 Image Pro",
+      "vendor": "Alibaba",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.075,
+      "ids": [
+        "alibaba/wan-2.7-image-pro",
+        "wan-2.7-image-pro"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "alibaba/wan-2.7-image",
+      "name": "Wan 2.7 Image",
+      "vendor": "Alibaba",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.03,
+      "ids": [
+        "alibaba/wan-2.7-image",
+        "wan-2.7-image"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bfl/flux-2-max",
+      "name": "FLUX.2 [max]",
+      "vendor": "Black Forest Labs",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.07,
+      "ids": [
+        "bfl/flux-2-max",
+        "flux-2-max"
+      ],
+      "source": "https://docs.bfl.ai/quick_start/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bfl/flux-2-flex",
+      "name": "FLUX.2 [flex]",
+      "vendor": "Black Forest Labs",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.05,
+      "ids": [
+        "bfl/flux-2-flex",
+        "flux-2-flex"
+      ],
+      "source": "https://docs.bfl.ai/quick_start/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bfl/flux-2-klein-9b",
+      "name": "FLUX.2 [klein] 9B",
+      "vendor": "Black Forest Labs",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.015,
+      "ids": [
+        "bfl/flux-2-klein-9b",
+        "flux-2-klein-9b"
+      ],
+      "source": "https://docs.bfl.ai/quick_start/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bfl/flux-2-klein-4b",
+      "name": "FLUX.2 [klein] 4B",
+      "vendor": "Black Forest Labs",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.014,
+      "ids": [
+        "bfl/flux-2-klein-4b",
+        "flux-2-klein-4b"
+      ],
+      "source": "https://docs.bfl.ai/quick_start/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bytedance/seedream-5-lite",
+      "name": "Seedream 5.0 Lite",
+      "vendor": "ByteDance",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.035,
+      "ids": [
+        "bytedance/seedream-5-lite",
+        "seedream-5-lite"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bytedance/seedream-5-flash",
+      "name": "Seedream 5.0 Flash",
+      "vendor": "ByteDance",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.018,
+      "ids": [
+        "bytedance/seedream-5-flash",
+        "seedream-5-flash"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "ideogram/ideogram-4",
+      "name": "Ideogram 4.0",
+      "vendor": "Ideogram",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.06,
+      "ids": [
+        "ideogram/ideogram-4",
+        "ideogram-4"
+      ],
+      "source": "https://ideogram.ai/models/4.0/",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "recraft/recraft-v4",
+      "name": "Recraft V4",
+      "vendor": "Recraft",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.04,
+      "ids": [
+        "recraft/recraft-v4",
+        "recraft-v4"
+      ],
+      "source": "https://www.recraft.ai/docs/api-reference/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "recraft/recraft-v4-pro",
+      "name": "Recraft V4 Pro",
+      "vendor": "Recraft",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.25,
+      "ids": [
+        "recraft/recraft-v4-pro",
+        "recraft-v4-pro"
+      ],
+      "source": "https://www.recraft.ai/docs/api-reference/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "recraft/recraft-v4.1",
+      "name": "Recraft V4.1",
+      "vendor": "Recraft",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.035,
+      "ids": [
+        "recraft/recraft-v4.1",
+        "recraft-v4.1"
+      ],
+      "source": "https://www.recraft.ai/docs/api-reference/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "recraft/recraft-v4.1-pro",
+      "name": "Recraft V4.1 Pro",
+      "vendor": "Recraft",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.21,
+      "ids": [
+        "recraft/recraft-v4.1-pro",
+        "recraft-v4.1-pro"
+      ],
+      "source": "https://www.recraft.ai/docs/api-reference/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "recraft/recraft-v4.1-flash",
+      "name": "Recraft V4.1 Flash",
+      "vendor": "Recraft",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.007,
+      "ids": [
+        "recraft/recraft-v4.1-flash",
+        "recraft-v4.1-flash"
+      ],
+      "source": "https://www.recraft.ai/docs/api-reference/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "luma/uni-1",
+      "name": "Uni-1.1",
+      "vendor": "Luma",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.0404,
+      "ids": [
+        "luma/uni-1",
+        "uni-1"
+      ],
+      "source": "https://lumalabs.ai/api/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "luma/uni-1-max",
+      "name": "Uni-1.1 Max",
+      "vendor": "Luma",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.1,
+      "ids": [
+        "luma/uni-1-max",
+        "uni-1-max"
+      ],
+      "source": "https://lumalabs.ai/api/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "kuaishou/kling-image-3",
+      "name": "Kling Image 3.0",
+      "vendor": "Kuaishou",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.028,
+      "ids": [
+        "kuaishou/kling-image-3",
+        "kling-image-3"
+      ],
+      "source": "https://kling.ai/dev/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "kuaishou/kling-image-o3",
+      "name": "Kling Image 3.0 Omni",
+      "vendor": "Kuaishou",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.028,
+      "ids": [
+        "kuaishou/kling-image-o3",
+        "kling-image-o3"
+      ],
+      "source": "https://kling.ai/dev/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "runway/gen-4-image",
+      "name": "Runway Gen-4 Image",
+      "vendor": "Runway",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.05,
+      "ids": [
+        "runway/gen-4-image",
+        "gen-4-image"
+      ],
+      "source": "https://docs.dev.runwayml.com/guides/pricing/",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "runway/gen-4-image-turbo",
+      "name": "Runway Gen-4 Image Turbo",
+      "vendor": "Runway",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.02,
+      "ids": [
+        "runway/gen-4-image-turbo",
+        "gen-4-image-turbo"
+      ],
+      "source": "https://docs.dev.runwayml.com/guides/pricing/",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-image-2.5-sunburst",
+      "name": "GPT Image 2.5 Sunburst",
+      "vendor": "OpenAI",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.01317,
+      "ids": [
+        "openai/gpt-image-2.5-sunburst",
+        "gpt-image-2.5-sunburst"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "openai/gpt-image-2.5-flare",
+      "name": "GPT Image 2.5 Flare",
+      "vendor": "OpenAI",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.01317,
+      "ids": [
+        "openai/gpt-image-2.5-flare",
+        "gpt-image-2.5-flare"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "openai/gpt-image-1.5",
+      "name": "GPT Image 1.5",
+      "vendor": "OpenAI",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.034,
+      "ids": [
+        "openai/gpt-image-1.5",
+        "gpt-image-1.5"
+      ],
+      "source": "https://developers.openai.com/api/docs/deprecations",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "openai/gpt-image-1-mini",
+      "name": "GPT Image 1 Mini",
+      "vendor": "OpenAI",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.011,
+      "ids": [
+        "openai/gpt-image-1-mini",
+        "gpt-image-1-mini"
+      ],
+      "source": "https://developers.openai.com/api/docs/deprecations",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "google/nano-banana",
+      "name": "Nano Banana",
+      "vendor": "Google",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.039,
+      "ids": [
+        "google/nano-banana",
+        "nano-banana"
+      ],
+      "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "bytedance/seedream-4.5",
+      "name": "Seedream 4.5",
+      "vendor": "ByteDance",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.04,
+      "ids": [
+        "bytedance/seedream-4.5",
+        "seedream-4.5"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "bytedance/seedream-4",
+      "name": "Seedream 4.0",
+      "vendor": "ByteDance",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.03,
+      "ids": [
+        "bytedance/seedream-4",
+        "seedream-4"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "google/veo-3.1",
+      "name": "Veo 3.1",
+      "vendor": "Google",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.4,
+      "ids": [
+        "google/veo-3.1",
+        "veo-3.1"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-09-24"
+    },
+    {
+      "id": "google/veo-3.1-fast",
+      "name": "Veo 3.1 Fast",
+      "vendor": "Google",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.1,
+      "ids": [
+        "google/veo-3.1-fast",
+        "veo-3.1-fast"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-09-24"
+    },
+    {
+      "id": "google/veo-3.1-lite",
+      "name": "Veo 3.1 Lite",
+      "vendor": "Google",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.05,
+      "ids": [
+        "google/veo-3.1-lite",
+        "veo-3.1-lite"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-09-24"
+    },
+    {
+      "id": "google/gemini-omni-flash",
+      "name": "Gemini Omni Flash",
+      "vendor": "Google",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.10136,
+      "ids": [
+        "google/gemini-omni-flash",
+        "gemini-omni-flash"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "kuaishou/kling-o3",
+      "name": "Kling O3",
+      "vendor": "Kuaishou",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.084,
+      "ids": [
+        "kuaishou/kling-o3",
+        "kling-o3"
+      ],
+      "source": "https://kling.ai/dev/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bytedance/seedance-2.5",
+      "name": "Seedance 2.5",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.231,
+      "ids": [
+        "bytedance/seedance-2.5",
+        "seedance-2.5"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "alibaba/wan-2.7",
+      "name": "Wan 2.7",
+      "vendor": "Alibaba",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.1,
+      "ids": [
+        "alibaba/wan-2.7",
+        "wan-2.7"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/hailuo-03",
+      "name": "MiniMax H3",
+      "vendor": "MiniMax",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.08,
+      "ids": [
+        "minimax/hailuo-03",
+        "hailuo-03"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo.md",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "xai/grok-imagine-video-1.5",
+      "name": "Grok Imagine 1.5",
+      "vendor": "xAI",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.08,
+      "ids": [
+        "xai/grok-imagine-video-1.5",
+        "grok-imagine-video-1.5"
+      ],
+      "source": "https://docs.x.ai/docs/models/grok-imagine-video-1.5",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "pixverse/pixverse-v6",
+      "name": "PixVerse V6",
+      "vendor": "PixVerse",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.045,
+      "ids": [
+        "pixverse/pixverse-v6",
+        "pixverse-v6"
+      ],
+      "source": "https://docs.platform.pixverse.ai/model-pricing-796039m0",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "runway/gen-4.5",
+      "name": "Runway Gen-4.5",
+      "vendor": "Runway",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.12,
+      "ids": [
+        "runway/gen-4.5",
+        "gen-4.5"
+      ],
+      "source": "https://docs.dev.runwayml.com/guides/pricing/",
+      "checked": "2026-09-24"
+    },
+    {
+      "id": "runway/gen-4-turbo",
+      "name": "Runway Gen-4 Turbo",
+      "vendor": "Runway",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.05,
+      "ids": [
+        "runway/gen-4-turbo",
+        "gen-4-turbo"
+      ],
+      "source": "https://docs.dev.runwayml.com/guides/pricing/",
+      "checked": "2026-09-24"
+    },
+    {
+      "id": "bytedance/seedance-1.5-pro",
+      "name": "Seedance 1.5 Pro",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.052,
+      "ids": [
+        "bytedance/seedance-1.5-pro",
+        "seedance-1.5-pro"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bytedance/omnihuman-1.5",
+      "name": "OmniHuman 1.5",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.12,
+      "ids": [
+        "bytedance/omnihuman-1.5",
+        "omnihuman-1.5"
+      ],
+      "source": "https://www.byteplus.com/en/product/omnihuman",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "bytedance/seedance-1.0-pro",
+      "name": "Seedance 1.0 Pro",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.052,
+      "ids": [
+        "bytedance/seedance-1.0-pro",
+        "seedance-1.0-pro"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "bytedance/seedance-1.0-pro-fast",
+      "name": "Seedance 1.0 Pro Fast",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.02,
+      "ids": [
+        "bytedance/seedance-1.0-pro-fast",
+        "seedance-1.0-pro-fast"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "xai/grok-imagine-video",
+      "name": "Grok Imagine Video",
+      "vendor": "xAI",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.05,
+      "ids": [
+        "xai/grok-imagine-video",
+        "grok-imagine-video"
+      ],
+      "source": "https://docs.x.ai/docs/models/grok-imagine-video",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "alibaba/wan-3.0",
+      "name": "Wan 3.0",
+      "vendor": "Alibaba",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.1,
+      "ids": [
+        "alibaba/wan-3.0",
+        "wan-3.0"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "alibaba/happyhorse-1.1",
+      "name": "HappyHorse 1.1",
+      "vendor": "Alibaba",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.14,
+      "ids": [
+        "alibaba/happyhorse-1.1",
+        "happyhorse-1.1"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bytedance/seedance-2.0",
+      "name": "Seedance 2.0",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.15,
+      "ids": [
+        "bytedance/seedance-2.0",
+        "seedance-2.0"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bytedance/seedance-2.0-fast",
+      "name": "Seedance 2.0 Fast",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.12,
+      "ids": [
+        "bytedance/seedance-2.0-fast",
+        "seedance-2.0-fast"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bytedance/seedance-2.0-mini",
+      "name": "Seedance 2.0 Mini",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.08,
+      "ids": [
+        "bytedance/seedance-2.0-mini",
+        "seedance-2.0-mini"
+      ],
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "kuaishou/kling-v3",
+      "name": "Kling 3.0",
+      "vendor": "Kuaishou",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.084,
+      "ids": [
+        "kuaishou/kling-v3",
+        "kling-v3"
+      ],
+      "source": "https://kling.ai/dev/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "kuaishou/kling-v3-turbo",
+      "name": "Kling 3.0 Turbo",
+      "vendor": "Kuaishou",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.112,
+      "ids": [
+        "kuaishou/kling-v3-turbo",
+        "kling-v3-turbo"
+      ],
+      "source": "https://kling.ai/dev/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/h3-max",
+      "name": "MiniMax H3 Max",
+      "vendor": "MiniMax",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.08,
+      "ids": [
+        "minimax/h3-max",
+        "h3-max"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo.md",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/h3-max-turbo",
+      "name": "MiniMax H3 Max Turbo",
+      "vendor": "MiniMax",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.04,
+      "ids": [
+        "minimax/h3-max-turbo",
+        "h3-max-turbo"
+      ],
+      "source": "https://fal.ai/models/minimax/h3-max-turbo/text-to-video/llms.txt",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "alibaba/wan-3.0-prime",
+      "name": "Wan 3.0 Prime",
+      "vendor": "Alibaba",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.14,
+      "ids": [
+        "alibaba/wan-3.0-prime",
+        "wan-3.0-prime"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/wan3-0-video-prime",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "luma/ray-3.2",
+      "name": "Ray 3.2",
+      "vendor": "Luma",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.06,
+      "ids": [
+        "luma/ray-3.2",
+        "ray-3.2"
+      ],
+      "source": "https://lumalabs.ai/api/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "pixverse/pixverse-c1",
+      "name": "PixVerse C1",
+      "vendor": "PixVerse",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.05,
+      "ids": [
+        "pixverse/pixverse-c1",
+        "pixverse-c1"
+      ],
+      "source": "https://docs.platform.pixverse.ai/model-pricing-796039m0",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "bfl/flux-3",
+      "name": "FLUX 3",
+      "vendor": "Black Forest Labs",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.17,
+      "ids": [
+        "bfl/flux-3",
+        "flux-3"
+      ],
+      "source": "https://docs.bfl.ai/quick_start/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "kuaishou/kling-o1",
+      "name": "Kling O1",
+      "vendor": "Kuaishou",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.112,
+      "ids": [
+        "kuaishou/kling-o1",
+        "kling-o1"
+      ],
+      "source": "https://openrouter.ai/kwaivgi/kling-video-o1",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "minimax/hailuo-2.3",
+      "name": "Hailuo 2.3",
+      "vendor": "MiniMax",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.0817,
+      "ids": [
+        "minimax/hailuo-2.3",
+        "hailuo-2.3"
+      ],
+      "source": "https://openrouter.ai/minimax/hailuo-2.3",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "alibaba/wan-2.6",
+      "name": "Wan 2.6",
+      "vendor": "Alibaba",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.08,
+      "ids": [
+        "alibaba/wan-2.6",
+        "wan-2.6"
+      ],
+      "source": "https://openrouter.ai/alibaba/wan-2.6",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "alibaba/happyhorse-1.0",
+      "name": "HappyHorse 1.0",
+      "vendor": "Alibaba",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.0988,
+      "ids": [
+        "alibaba/happyhorse-1.0",
+        "happyhorse-1.0"
+      ],
+      "source": "https://openrouter.ai/alibaba/happyhorse-1.0",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "heygen/heygen-video-1",
+      "name": "HeyGen Video 1",
+      "vendor": "HeyGen",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.02,
+      "ids": [
+        "heygen/heygen-video-1",
+        "heygen-video-1"
+      ],
+      "source": "https://openrouter.ai/heygen/heygen-video-1",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "xai/grok-imagine-video-1.5-lite",
+      "name": "Grok Imagine Video 1.5 Lite",
+      "vendor": "xAI",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.02,
+      "ids": [
+        "xai/grok-imagine-video-1.5-lite",
+        "grok-imagine-video-1.5-lite"
+      ],
+      "source": "https://docs.x.ai/developers/models/grok-imagine-video-1.5-lite",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "suno/suno-v5.5",
+      "name": "Suno V5.5",
+      "vendor": "Suno",
+      "modality": "audio",
+      "unit": "track",
+      "list": 0.1,
+      "ids": [
+        "suno/suno-v5.5",
+        "suno-v5.5"
+      ]
+    },
+    {
+      "id": "elevenlabs/eleven-v3",
+      "name": "ElevenLabs V3",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 80,
+      "ids": [
+        "elevenlabs/eleven-v3",
+        "eleven-v3"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "elevenlabs/eleven-v4",
+      "name": "ElevenLabs V4",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 80,
+      "ids": [
+        "elevenlabs/eleven-v4",
+        "eleven-v4"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "elevenlabs/eleven-flash-v2.5",
+      "name": "ElevenLabs Flash v2.5",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 40,
+      "ids": [
+        "elevenlabs/eleven-flash-v2.5",
+        "eleven-flash-v2.5"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "elevenlabs/scribe-v2",
+      "name": "Scribe v2",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.22,
+      "ids": [
+        "elevenlabs/scribe-v2",
+        "scribe-v2"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-09-29"
+    },
+    {
+      "id": "google/gemini-3.1-flash-tts",
+      "name": "Gemini 3.1 Flash TTS",
+      "vendor": "Google",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 16,
+      "ids": [
+        "google/gemini-3.1-flash-tts",
+        "gemini-3.1-flash-tts"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "checked": "2026-10-17"
+    },
+    {
+      "id": "openai/whisper-v3-turbo",
+      "name": "Whisper v3 Turbo",
+      "vendor": "OpenAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.04,
+      "ids": [
+        "openai/whisper-v3-turbo",
+        "whisper-v3-turbo"
+      ],
+      "source": "https://console.groq.com/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/speech-2.6",
+      "name": "Speech 2.6",
+      "vendor": "MiniMax",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 35,
+      "ids": [
+        "minimax/speech-2.6",
+        "speech-2.6"
+      ]
+    },
+    {
+      "id": "cartesia/sonic-3",
+      "name": "Sonic 3",
+      "vendor": "Cartesia",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 55,
+      "ids": [
+        "cartesia/sonic-3",
+        "sonic-3"
+      ]
+    },
+    {
+      "id": "deepgram/nova-4",
+      "name": "Nova-4",
+      "vendor": "Deepgram",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.26,
+      "ids": [
+        "deepgram/nova-4",
+        "nova-4"
+      ]
+    },
+    {
+      "id": "assemblyai/universal-3",
+      "name": "Universal-3",
+      "vendor": "AssemblyAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.27,
+      "ids": [
+        "assemblyai/universal-3",
+        "universal-3"
+      ]
+    },
+    {
+      "id": "openai/tts-1",
+      "name": "TTS-1",
+      "vendor": "OpenAI",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "openai/tts-1",
+        "tts-1"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/tts-1-hd",
+      "name": "TTS-1 HD",
+      "vendor": "OpenAI",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 30,
+      "ids": [
+        "openai/tts-1-hd",
+        "tts-1-hd"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/gpt-transcribe",
+      "name": "GPT-Transcribe",
+      "vendor": "OpenAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.27,
+      "ids": [
+        "openai/gpt-transcribe",
+        "gpt-transcribe"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/gemini-3.5-transcribe",
+      "name": "Gemini 3.5 Transcribe",
+      "vendor": "Google",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.3,
+      "ids": [
+        "google/gemini-3.5-transcribe",
+        "gemini-3.5-transcribe"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/lyria-3.5",
+      "name": "Lyria 3.5",
+      "vendor": "Google",
+      "modality": "audio",
+      "unit": "track",
+      "list": 0.08,
+      "ids": [
+        "google/lyria-3.5",
+        "lyria-3.5"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "google/lyria-3-clip",
+      "name": "Lyria 3 Clip (Preview)",
+      "vendor": "Google",
+      "modality": "audio",
+      "unit": "track",
+      "list": 0.04,
+      "ids": [
+        "google/lyria-3-clip",
+        "lyria-3-clip"
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/voxtral-mini-transcribe-2",
+      "name": "Voxtral Mini Transcribe 2",
+      "vendor": "Mistral",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.18,
+      "ids": [
+        "mistral/voxtral-mini-transcribe-2",
+        "voxtral-mini-transcribe-2"
+      ],
+      "source": "https://docs.mistral.ai/models/voxtral-mini-transcribe-26-02",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "mistral/voxtral-tts",
+      "name": "Voxtral TTS",
+      "vendor": "Mistral",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 16,
+      "ids": [
+        "mistral/voxtral-tts",
+        "voxtral-tts"
+      ],
+      "source": "https://mistral.ai/pricing/api/",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "zai/glm-asr-2512",
+      "name": "GLM-ASR",
+      "vendor": "Z.ai",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.144,
+      "ids": [
+        "zai/glm-asr-2512",
+        "glm-asr-2512"
+      ],
+      "source": "https://docs.z.ai/guides/overview/pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/speech-2.8-hd",
+      "name": "Speech 2.8 HD",
+      "vendor": "MiniMax",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 100,
+      "ids": [
+        "minimax/speech-2.8-hd",
+        "speech-2.8-hd"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/speech-2.8-turbo",
+      "name": "Speech 2.8 Turbo",
+      "vendor": "MiniMax",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 60,
+      "ids": [
+        "minimax/speech-2.8-turbo",
+        "speech-2.8-turbo"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "minimax/asr-1.0",
+      "name": "MiniMax ASR",
+      "vendor": "MiniMax",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.38,
+      "ids": [
+        "minimax/asr-1.0",
+        "asr-1.0"
+      ],
+      "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen-audio-3.0-tts-plus",
+      "name": "Qwen Audio 3.0 TTS Plus",
+      "vendor": "Alibaba",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 20,
+      "ids": [
+        "qwen/qwen-audio-3.0-tts-plus",
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen-audio-3.0-tts-flash",
+      "name": "Qwen Audio 3.0 TTS Flash",
+      "vendor": "Alibaba",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "qwen/qwen-audio-3.0-tts-flash",
+        "qwen-audio-3.0-tts-flash"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "qwen/qwen3-asr-flash",
+      "name": "Qwen3-ASR Flash",
+      "vendor": "Alibaba",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.126,
+      "ids": [
+        "qwen/qwen3-asr-flash",
+        "qwen3-asr-flash"
+      ],
+      "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "elevenlabs/eleven-v4-turbo",
+      "name": "ElevenLabs V4 Turbo",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 40,
+      "ids": [
+        "elevenlabs/eleven-v4-turbo",
+        "eleven-v4-turbo"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "elevenlabs/eleven-multilingual-v2",
+      "name": "ElevenLabs Multilingual v2",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 80,
+      "ids": [
+        "elevenlabs/eleven-multilingual-v2",
+        "eleven-multilingual-v2"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "elevenlabs/eleven-flash-v2",
+      "name": "ElevenLabs Flash v2",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 40,
+      "ids": [
+        "elevenlabs/eleven-flash-v2",
+        "eleven-flash-v2"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "elevenlabs/scribe-v2-medical",
+      "name": "Scribe v2 Medical",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.22,
+      "ids": [
+        "elevenlabs/scribe-v2-medical",
+        "scribe-v2-medical"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "openai/whisper-large-v3",
+      "name": "Whisper Large v3",
+      "vendor": "OpenAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.09,
+      "ids": [
+        "openai/whisper-large-v3",
+        "whisper-large-v3"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "canopylabs/orpheus-v1-english",
+      "name": "Orpheus V1 English",
+      "vendor": "Canopy Labs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 22,
+      "ids": [
+        "canopylabs/orpheus-v1-english",
+        "orpheus-v1-english"
+      ],
+      "source": "https://console.groq.com/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "canopylabs/orpheus-arabic-saudi",
+      "name": "Orpheus Arabic (Saudi)",
+      "vendor": "Canopy Labs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 40,
+      "ids": [
+        "canopylabs/orpheus-arabic-saudi",
+        "orpheus-arabic-saudi"
+      ],
+      "source": "https://console.groq.com/docs/models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "canopylabs/orpheus-3b",
+      "name": "Orpheus 3B",
+      "vendor": "Canopy Labs",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "canopylabs/orpheus-3b",
+        "orpheus-3b"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "hexgrad/kokoro-82m",
+      "name": "Kokoro 82M",
+      "vendor": "Kokoro",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 4,
+      "ids": [
+        "hexgrad/kokoro-82m",
+        "kokoro-82m"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "nvidia/parakeet-tdt-0.6b-v3",
+      "name": "Parakeet TDT 0.6B v3",
+      "vendor": "NVIDIA",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.09,
+      "ids": [
+        "nvidia/parakeet-tdt-0.6b-v3",
+        "parakeet-tdt-0.6b-v3"
+      ],
+      "source": "https://docs.together.ai/docs/serverless-models",
+      "checked": "2026-10-01"
+    },
+    {
+      "id": "microsoft/mai-voice-2.1",
+      "name": "MAI-Voice 2.1",
+      "vendor": "Microsoft",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 22,
+      "ids": [
+        "microsoft/mai-voice-2.1",
+        "mai-voice-2.1"
+      ],
+      "source": "https://openrouter.ai/microsoft/mai-voice-2.1",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "microsoft/mai-voice-2.1-flash",
+      "name": "MAI-Voice 2.1 Flash",
+      "vendor": "Microsoft",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "microsoft/mai-voice-2.1-flash",
+        "mai-voice-2.1-flash"
+      ],
+      "source": "https://openrouter.ai/microsoft/mai-voice-2.1-flash",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "microsoft/mai-voice-2",
+      "name": "MAI-Voice 2",
+      "vendor": "Microsoft",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 22,
+      "ids": [
+        "microsoft/mai-voice-2",
+        "mai-voice-2"
+      ],
+      "source": "https://openrouter.ai/microsoft/mai-voice-2",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "microsoft/mai-voice-2-flash",
+      "name": "MAI-Voice 2 Flash",
+      "vendor": "Microsoft",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "microsoft/mai-voice-2-flash",
+        "mai-voice-2-flash"
+      ],
+      "source": "https://openrouter.ai/microsoft/mai-voice-2-flash",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "deepgram/aura-2",
+      "name": "Aura-2",
+      "vendor": "Deepgram",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 30,
+      "ids": [
+        "deepgram/aura-2",
+        "aura-2"
+      ],
+      "source": "https://openrouter.ai/deepgram/aura-2",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "deepgram/flux-tts",
+      "name": "Flux TTS",
+      "vendor": "Deepgram",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 45,
+      "ids": [
+        "deepgram/flux-tts",
+        "flux-tts"
+      ],
+      "source": "https://openrouter.ai/deepgram/flux-tts",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "fish-audio/s2.1-pro",
+      "name": "Fish Audio S2.1 Pro",
+      "vendor": "Fish Audio",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "fish-audio/s2.1-pro",
+        "s2.1-pro"
+      ],
+      "source": "https://openrouter.ai/fish-audio/s2.1-pro",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "fish-audio/s2-pro",
+      "name": "Fish Audio S2 Pro",
+      "vendor": "Fish Audio",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "fish-audio/s2-pro",
+        "s2-pro"
+      ],
+      "source": "https://openrouter.ai/fish-audio/s2-pro",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "fish-audio/s1",
+      "name": "Fish Audio S1",
+      "vendor": "Fish Audio",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "fish-audio/s1",
+        "s1"
+      ],
+      "source": "https://openrouter.ai/fish-audio/s1",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "sesame/csm-1b",
+      "name": "CSM 1B",
+      "vendor": "Sesame",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 7,
+      "ids": [
+        "sesame/csm-1b",
+        "csm-1b"
+      ],
+      "source": "https://openrouter.ai/sesame/csm-1b",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "deepgram/nova-3",
+      "name": "Nova-3",
+      "vendor": "Deepgram",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.258,
+      "ids": [
+        "deepgram/nova-3",
+        "nova-3"
+      ],
+      "source": "https://openrouter.ai/deepgram/nova-3",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "assemblyai/universal-3.5-pro",
+      "name": "Universal-3.5 Pro",
+      "vendor": "AssemblyAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.45,
+      "ids": [
+        "assemblyai/universal-3.5-pro",
+        "universal-3.5-pro"
+      ],
+      "source": "https://openrouter.ai/assemblyai/universal-3-5-pro",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "google/chirp-3",
+      "name": "Chirp 3",
+      "vendor": "Google",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.96,
+      "ids": [
+        "google/chirp-3",
+        "chirp-3"
+      ],
+      "source": "https://openrouter.ai/google/chirp-3",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "microsoft/mai-transcribe-2",
+      "name": "MAI-Transcribe 2",
+      "vendor": "Microsoft",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.1,
+      "ids": [
+        "microsoft/mai-transcribe-2",
+        "mai-transcribe-2"
+      ],
+      "source": "https://openrouter.ai/microsoft/mai-transcribe-2",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "microsoft/mai-transcribe-1.5",
+      "name": "MAI-Transcribe 1.5",
+      "vendor": "Microsoft",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.36,
+      "ids": [
+        "microsoft/mai-transcribe-1.5",
+        "mai-transcribe-1.5"
+      ],
+      "source": "https://openrouter.ai/microsoft/mai-transcribe-1.5",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "fish-audio/transcribe-1",
+      "name": "Fish Audio Transcribe 1",
+      "vendor": "Fish Audio",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.36,
+      "ids": [
+        "fish-audio/transcribe-1",
+        "transcribe-1"
+      ],
+      "source": "https://openrouter.ai/fish-audio/transcribe-1",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "fish-audio/transcribe-1-pro",
+      "name": "Fish Audio Transcribe 1 Pro",
+      "vendor": "Fish Audio",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.36,
+      "ids": [
+        "fish-audio/transcribe-1-pro",
+        "transcribe-1-pro"
+      ],
+      "source": "https://openrouter.ai/fish-audio/transcribe-1-pro",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "meta/muse-voice-transcribe-1.0",
+      "name": "Muse Voice Transcribe 1.0",
+      "vendor": "Meta",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.18,
+      "ids": [
+        "meta/muse-voice-transcribe-1.0",
+        "muse-voice-transcribe-1.0"
+      ],
+      "source": "https://openrouter.ai/meta/muse-voice-transcribe-1.0",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "qwen/qwen3-asr-1.7b",
+      "name": "Qwen3-ASR 1.7B",
+      "vendor": "Qwen",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.027,
+      "ids": [
+        "qwen/qwen3-asr-1.7b",
+        "qwen3-asr-1.7b"
+      ],
+      "source": "https://openrouter.ai/qwen/qwen3-asr-1.7b",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "qwen/qwen3-asr-0.6b",
+      "name": "Qwen3-ASR 0.6B",
+      "vendor": "Qwen",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.012,
+      "ids": [
+        "qwen/qwen3-asr-0.6b",
+        "qwen3-asr-0.6b"
+      ],
+      "source": "https://openrouter.ai/qwen/qwen3-asr-0.6b",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "openai/whisper-1",
+      "name": "Whisper",
+      "vendor": "OpenAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.36,
+      "ids": [
+        "openai/whisper-1",
+        "whisper-1"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "openai/gpt-4o-transcribe",
+      "name": "GPT-4o Transcribe",
+      "vendor": "OpenAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.36,
+      "ids": [
+        "openai/gpt-4o-transcribe",
+        "gpt-4o-transcribe"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "openai/gpt-4o-mini-transcribe",
+      "name": "GPT-4o mini Transcribe",
+      "vendor": "OpenAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.18,
+      "ids": [
+        "openai/gpt-4o-mini-transcribe",
+        "gpt-4o-mini-transcribe"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "xai/grok-voice-tts-1.0",
+      "name": "Grok Voice TTS",
+      "vendor": "xAI",
+      "modality": "audio",
+      "unit": "1M chars",
+      "list": 15,
+      "ids": [
+        "xai/grok-voice-tts-1.0",
+        "grok-voice-tts-1.0"
+      ],
+      "source": "https://docs.x.ai/developers/models",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "xai/grok-stt-1.0",
+      "name": "Grok Speech to Text",
+      "vendor": "xAI",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.1,
+      "ids": [
+        "xai/grok-stt-1.0",
+        "grok-stt-1.0"
+      ],
+      "source": "https://docs.x.ai/developers/models",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-asr",
+      "name": "Nemotron 3.5 ASR",
+      "vendor": "NVIDIA",
+      "modality": "audio",
+      "unit": "audio hour",
+      "list": 0.27,
+      "ids": [
+        "nvidia/nemotron-3.5-asr",
+        "nemotron-3.5-asr"
+      ],
+      "source": "https://www.together.ai/pricing",
+      "checked": "2026-10-05"
+    },
+    {
+      "id": "recraft/crisp-upscale",
+      "name": "Recraft Crisp Upscale",
+      "vendor": "Recraft",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.004,
+      "ids": [
+        "recraft/crisp-upscale",
+        "crisp-upscale"
+      ],
+      "source": "https://fal.ai/models/fal-ai/recraft/upscale/crisp/llms.txt",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "google/imagen-upscaler",
+      "name": "Imagen Upscaler",
+      "vendor": "Google",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.02,
+      "ids": [
+        "google/imagen-upscaler",
+        "imagen-upscaler"
+      ],
+      "source": "https://replicate.com/google/upscaler",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "xinntao/real-esrgan",
+      "name": "Real-ESRGAN",
+      "vendor": "Real-ESRGAN",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.002,
+      "ids": [
+        "xinntao/real-esrgan",
+        "real-esrgan"
+      ],
+      "source": "https://replicate.com/nightmareai/real-esrgan",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "magnific/precision-upscaler-v2",
+      "name": "Magnific Precision Upscaler v2",
+      "vendor": "Magnific",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.25,
+      "ids": [
+        "magnific/precision-upscaler-v2",
+        "precision-upscaler-v2"
+      ],
+      "source": "https://docs.dev.runwayml.com/guides/pricing",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "clarity/clarity-upscaler",
+      "name": "Clarity Upscaler",
+      "vendor": "Clarity AI",
+      "modality": "image",
+      "unit": "image",
+      "list": null,
+      "ids": [
+        "clarity/clarity-upscaler",
+        "clarity-upscaler"
+      ],
+      "source": "https://fal.ai/models/fal-ai/clarity-upscaler/llms.txt",
+      "checked": "2026-10-16"
+    },
+    {
+      "id": "fal/creative-upscaler",
+      "name": "Creative Upscaler",
+      "vendor": "fal",
+      "modality": "image",
+      "unit": "image",
+      "list": null,
+      "ids": [
+        "fal/creative-upscaler",
+        "creative-upscaler"
+      ],
+      "source": "https://fal.ai/models/fal-ai/creative-upscaler/llms.txt",
+      "checked": "2026-10-16"
+    },
+    {
+      "id": "bria/remove-background",
+      "name": "Bria Remove Background",
+      "vendor": "Bria",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.018,
+      "ids": [
+        "bria/remove-background",
+        "remove-background"
+      ],
+      "source": "https://fal.ai/models/fal-ai/bria/background/remove/llms.txt",
+      "checked": "2026-10-16"
+    },
+    {
+      "id": "bria/expand",
+      "name": "Bria Expand",
+      "vendor": "Bria",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.04,
+      "ids": [
+        "bria/expand",
+        "expand"
+      ],
+      "source": "https://fal.ai/models/fal-ai/bria/expand/llms.txt",
+      "checked": "2026-10-16"
+    },
+    {
+      "id": "ideogram/ideogram-3-reframe",
+      "name": "Ideogram 3.0 Reframe",
+      "vendor": "Ideogram",
+      "modality": "image",
+      "unit": "image",
+      "list": 0.06,
+      "ids": [
+        "ideogram/ideogram-3-reframe",
+        "ideogram-3-reframe"
+      ],
+      "source": "https://fal.ai/models/fal-ai/ideogram/v3/reframe/llms.txt",
+      "checked": "2026-10-16"
+    },
+    {
+      "id": "iclight/ic-light-v2",
+      "name": "IC-Light v2",
+      "vendor": "IC-Light",
+      "modality": "image",
+      "unit": "image",
+      "list": null,
+      "ids": [
+        "iclight/ic-light-v2",
+        "ic-light-v2"
+      ],
+      "source": "https://fal.ai/models/fal-ai/iclight-v2/llms.txt",
+      "checked": "2026-10-16"
+    },
+    {
+      "id": "topaz/video-upscale",
+      "name": "Topaz Video Upscale",
+      "vendor": "Topaz Labs",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.01,
+      "ids": [
+        "topaz/video-upscale",
+        "video-upscale"
+      ],
+      "source": "https://fal.ai/models/fal-ai/topaz/upscale/video/llms.txt",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "magnific/video-upscaler-creative",
+      "name": "Magnific Creative Video Upscaler",
+      "vendor": "Magnific",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.168,
+      "ids": [
+        "magnific/video-upscaler-creative",
+        "video-upscaler-creative"
+      ],
+      "source": "https://docs.dev.runwayml.com/guides/pricing",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "sync/lipsync-2",
+      "name": "Lipsync 2",
+      "vendor": "Sync",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.05,
+      "ids": [
+        "sync/lipsync-2",
+        "lipsync-2"
+      ],
+      "source": "https://sync.so/pricing.md",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "sync/lipsync-2-pro",
+      "name": "Lipsync 2 Pro",
+      "vendor": "Sync",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.08325,
+      "ids": [
+        "sync/lipsync-2-pro",
+        "lipsync-2-pro"
+      ],
+      "source": "https://sync.so/pricing.md",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "sync/sync-3",
+      "name": "Sync 3",
+      "vendor": "Sync",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.1335,
+      "ids": [
+        "sync/sync-3",
+        "sync-3"
+      ],
+      "source": "https://sync.so/pricing.md",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "sync/react-1",
+      "name": "React 1",
+      "vendor": "Sync",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.16675,
+      "ids": [
+        "sync/react-1",
+        "react-1"
+      ],
+      "source": "https://sync.so/pricing.md",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "kuaishou/kling-lipsync",
+      "name": "Kling Lip-Sync",
+      "vendor": "Kuaishou",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.014,
+      "ids": [
+        "kuaishou/kling-lipsync",
+        "kling-lipsync"
+      ],
+      "source": "https://fal.ai/models/fal-ai/kling-video/lipsync/audio-to-video/llms.txt",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "kuaishou/kling-avatar-v2-pro",
+      "name": "Kling AI Avatar v2 Pro",
+      "vendor": "Kuaishou",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.115,
+      "ids": [
+        "kuaishou/kling-avatar-v2-pro",
+        "kling-avatar-v2-pro"
+      ],
+      "source": "https://fal.ai/models/fal-ai/kling-video/ai-avatar/v2/pro/llms.txt",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "bytedance/omnihuman",
+      "name": "OmniHuman",
+      "vendor": "ByteDance",
+      "modality": "video",
+      "unit": "second",
+      "list": 0.14,
+      "ids": [
+        "bytedance/omnihuman",
+        "omnihuman"
+      ],
+      "source": "https://replicate.com/bytedance/omni-human",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "elevenlabs/sound-effects-v2",
+      "name": "ElevenLabs Sound Effects v2",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "second",
+      "list": 0.002,
+      "ids": [
+        "elevenlabs/sound-effects-v2",
+        "sound-effects-v2"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "mmaudio/mmaudio-v2",
+      "name": "MMAudio v2",
+      "vendor": "MMAudio",
+      "modality": "audio",
+      "unit": "second",
+      "list": 0.001,
+      "ids": [
+        "mmaudio/mmaudio-v2",
+        "mmaudio-v2"
+      ],
+      "source": "https://fal.ai/models/fal-ai/mmaudio-v2/text-to-audio/llms.txt",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "bytedance/seed-audio",
+      "name": "Seed Audio",
+      "vendor": "ByteDance",
+      "modality": "audio",
+      "unit": "second",
+      "list": 0.0025,
+      "ids": [
+        "bytedance/seed-audio",
+        "seed-audio"
+      ],
+      "source": "https://docs.dev.runwayml.com/guides/pricing",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "elevenlabs/music",
+      "name": "Eleven Music",
+      "vendor": "ElevenLabs",
+      "modality": "audio",
+      "unit": "second",
+      "list": 0.0025,
+      "ids": [
+        "elevenlabs/music",
+        "music"
+      ],
+      "source": "https://elevenlabs.io/pricing/api",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "google/lyria-2",
+      "name": "Lyria 2",
+      "vendor": "Google",
+      "modality": "audio",
+      "unit": "second",
+      "list": 0.002,
+      "ids": [
+        "google/lyria-2",
+        "lyria-2"
+      ],
+      "source": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/music/generate-music",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "minimax/music-2.5",
+      "name": "MiniMax Music 2.5",
+      "vendor": "MiniMax",
+      "modality": "audio",
+      "unit": "track",
+      "list": 0.15,
+      "ids": [
+        "minimax/music-2.5",
+        "music-2.5"
+      ],
+      "source": "https://replicate.com/minimax/music-2.5",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "minimax/music-1.5",
+      "name": "MiniMax Music 1.5",
+      "vendor": "MiniMax",
+      "modality": "audio",
+      "unit": "track",
+      "list": 0.03,
+      "ids": [
+        "minimax/music-1.5",
+        "music-1.5"
+      ],
+      "source": "https://replicate.com/minimax/music-1.5",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "stability/stable-audio-2.5",
+      "name": "Stable Audio 2.5",
+      "vendor": "Stability AI",
+      "modality": "audio",
+      "unit": "track",
+      "list": 0.2,
+      "ids": [
+        "stability/stable-audio-2.5",
+        "stable-audio-2.5"
+      ],
+      "source": "https://replicate.com/stability-ai/stable-audio-2.5",
+      "checked": "2026-10-12"
+    },
+    {
+      "id": "openai/text-embedding-3-small",
+      "name": "text-embedding-3-small",
+      "vendor": "OpenAI",
+      "modality": "embedding",
+      "unit": "1M tokens",
+      "list": 0.02,
+      "ids": [
+        "openai/text-embedding-3-small",
+        "text-embedding-3-small"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "openai/text-embedding-3-large",
+      "name": "text-embedding-3-large",
+      "vendor": "OpenAI",
+      "modality": "embedding",
+      "unit": "1M tokens",
+      "list": 0.13,
+      "ids": [
+        "openai/text-embedding-3-large",
+        "text-embedding-3-large"
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "mistral/mistral-embed",
+      "name": "Mistral Embed",
+      "vendor": "Mistral",
+      "modality": "embedding",
+      "unit": "1M tokens",
+      "list": 0.1,
+      "ids": [
+        "mistral/mistral-embed",
+        "mistral-embed"
+      ],
+      "source": "https://docs.mistral.ai/models/mistral-embed-23-12",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "mistral/codestral-embed",
+      "name": "Codestral Embed",
+      "vendor": "Mistral",
+      "modality": "embedding",
+      "unit": "1M tokens",
+      "list": 0.15,
+      "ids": [
+        "mistral/codestral-embed",
+        "codestral-embed"
+      ],
+      "source": "https://docs.mistral.ai/models/codestral-embed-25-05",
+      "checked": "2026-10-19"
+    }
+  ]
+}
