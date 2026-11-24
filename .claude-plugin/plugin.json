@@ -2,11 +2,28 @@
   "name": "infro-skills",
   "version": "1.0.0",
   "description": "AI cost and reliability skills for Claude Code, Codex and Cursor: model retirement check, LLM cost audit, failover, coding-agent spend limits, INFRO setup.",
-  "author": { "name": "INFRO", "url": "https://infro.io" },
+  "author": {
+    "name": "INFRO",
+    "url": "https://infro.io"
+  },
   "homepage": "https://infro.io",
   "repository": "https://github.com/infroio/infro-skills",
   "license": "MIT",
-  "keywords": ["llm", "ai-cost", "finops", "model-deprecation", "failover", "claude-code", "codex", "cursor", "skills"],
-  "skills": ["./skills"],
+  "privacyPolicyUrl": "https://infro.io/privacy",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": [
+    "llm",
+    "ai-cost",
+    "finops",
+    "model-deprecation",
+    "failover",
+    "claude-code",
+    "codex",
+    "cursor",
+    "skills"
+  ],
+  "skills": [
+    "./skills"
+  ],
   "mcpServers": "./.mcp.json"
 }

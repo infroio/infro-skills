@@ -57,6 +57,7 @@ Node 18 or newer, no install. The scanner exits with 1 when a model in your code
 | Agent | Where skills live | Install |
 | --- | --- | --- |
 | Claude Code | `.claude/skills/` or `~/.claude/skills/` | `npx skills add infroio/infro-skills -a claude-code` |
+| Claude Code, as a plugin (skills + INFRO MCP server) | managed by Claude Code | `/plugin install infro-skills --marketplace infroio/infro-skills` |
 | Cursor | `.cursor/skills/` or `.agents/skills/` | `npx skills add infroio/infro-skills -a cursor` |
 | Codex, OpenCode, Windsurf, Cline | `.agents/skills/` | `npx skills add infroio/infro-skills` |
 | One skill only | | `npx skills add infroio/infro-skills --skill model-retirement-check` |

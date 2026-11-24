@@ -1,0 +1,14 @@
+{
+  "name": "infro-skills",
+  "owner": {
+    "name": "INFRO",
+    "url": "https://infro.io"
+  },
+  "plugins": [
+    {
+      "name": "infro-skills",
+      "source": "./",
+      "description": "AI cost and reliability skills for Claude Code, Codex and Cursor: model retirement check, LLM cost audit, failover, coding-agent spend limits, INFRO setup."
+    }
+  ]
+}
